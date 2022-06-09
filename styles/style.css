@@ -11,6 +11,8 @@ body {
   flex-direction: column;
 }
 
+/* HERO */
+
 .hero {
   background-color: #1f2937;
   padding: 20px 15%;
@@ -82,4 +84,107 @@ button {
   padding: 6px 24px;
   border-radius: 6px;
   color: #e5e7eb;
+}
+
+
+/* INFO */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  margin: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 12vw;
+  gap: 10px;
+}
+
+.frame {
+  border: 3px solid #3882f6;
+  height: 12vw;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.text {
+  font-weight: 300;
+  text-align: center;
+}
+
+
+/* QUOTE */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.quote-content {
+  max-width: 800px;
+}
+
+.quote-text {
+  font-size: 2.25em;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.author {
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align: right;
+  margin-left: auto;
+}
+
+
+/* CTA */
+
+.cta {
+  background-color: #3882f6;
+  display: flex;
+  gap: 10vw;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 30px 10vw;
+  color: #f9faf8;
+  max-width: 800px;
+}
+
+.cta button {
+  border: 2px solid #f9faf8;
+  height: 32px;
+  margin: auto;
+  margin-right: 0;
+}
+
+.cta p {
+  font-weight: 200;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 200;
 }
